@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dhiraj/Desktop/Assignment3/HeaderFiles/CellPhone.h
+
+/home/dhiraj/Desktop/Assignment3/HeaderFiles/functions.h
+CellPhone.h
+/home/dhiraj/Desktop/Assignment3/HeaderFiles/CellPhone.h
+
+/home/dhiraj/Desktop/Assignment3/SourceFiles/functions.cpp
+iostream
+-
+unistd.h
+-
+../HeaderFiles/CellPhone.h
+/home/dhiraj/Desktop/Assignment3/HeaderFiles/CellPhone.h
+../HeaderFiles/functions.h
+/home/dhiraj/Desktop/Assignment3/HeaderFiles/functions.h
+
+/home/dhiraj/Desktop/Assignment3/SourceFiles/main.cpp
+iostream
+-
+../HeaderFiles/CellPhone.h
+/home/dhiraj/Desktop/Assignment3/HeaderFiles/CellPhone.h
+../HeaderFiles/functions.h
+/home/dhiraj/Desktop/Assignment3/HeaderFiles/functions.h
+
